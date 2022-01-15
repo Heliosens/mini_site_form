@@ -1,11 +1,7 @@
-<?php
-
-// header
-$title = 'Home Sweet Home';
-require __DIR__ . '/partials/header.php';
-
-// Le contenu propre à home ?>
-<h1>Home page</h1> <?php
-
-// footer
-require __DIR__ . '/partials/footer.php';
+<section>
+    <h2>Bienvenue sur ma Home page</h2>
+    <div>
+        <a href="/?title=connexion">Vous pouvez vous inscrire ou vous connecter</a>
+        <a href="/?title=contact">Vous pouvez me laisser un message</a>
+    </div>
+</section>
