@@ -63,11 +63,12 @@ section {
     justify-content: flex-start;
 }
 
-section div {
+section > div, form div {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 section a:hover {
@@ -82,3 +83,18 @@ form div {
     margin: 1vw;
 }
 
+.content {
+    display: flex;
+}
+
+.switch {
+    display: none;
+}
+
+#userChoice {
+    justify-content: flex-start;
+}
+
+#userChoice div {
+    margin: 2vh 0;
+}

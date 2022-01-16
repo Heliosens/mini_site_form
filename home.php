@@ -1,7 +1,8 @@
 <section>
     <h2>Bienvenue sur ma Home page</h2>
-    <div>
-        <a href="/?title=connexion">Vous pouvez vous inscrire ou vous connecter</a>
-        <a href="/?title=contact">Vous pouvez me laisser un message</a>
+    <div class="content">
+        <a href="/?title=Connexion">Vous pouvez vous connecter</a>
+        <a href="/?title=Connexion">Où créer un compte</a>
+        <a href="/?title=Contact">Vous pouvez me laisser un message</a>
     </div>
 </section>

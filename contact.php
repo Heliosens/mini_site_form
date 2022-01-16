@@ -1,10 +1,10 @@
 <section>
     <h2>Contactez moi !</h2>
-    <div>
+    <div class="content">
         <form action="/forms/form_test.php">
             <div>
-                <label for="id-username">Pseudo</label>
-                <input type="text" name="userName" id="id-username"">
+                <label>Pseudo</label>
+                <input type="text" name="userName">
             </div>
             <div>
                 <label for="id-message">votre message</label>

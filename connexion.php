@@ -1,17 +1,25 @@
 <section>
-    <div id="logIn">
-        <h2>Connexion</h2>
-        <?php
-        require __DIR__ . '/forms/login.php';?>
+    <h2 id="logOrSign">Connexion ou Inscription</h2>
+    <div id="userChoice">
+        <div>
+            <span>J'ai déjà un compte : </span>
+            <input type="submit" name="logIn" class="check" value="Connexion">
+        </div>
+        <div>
+            <span>Je crée un comte : </span>
+            <input type="submit" name="signIn" class="check" value="Inscription">
+        </div>
     </div>
-
-    <div id="signIn">
-        <h2>Inscription</h2>
+    <div class='switch'>
+        <!-- log -->
         <?php
-        require __DIR__ . '/forms/signIn.php';?>
+        require __DIR__ . "/forms/login.php";
+        ?>
+    </div>
+    <div class='switch'>
+        <!-- sign -->
+        <?php
+        require __DIR__ . "/forms/signIn.php";
+        ?>
     </div>
 </section>
-
-<?php
-// footer
-
