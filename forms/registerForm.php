@@ -1,6 +1,6 @@
 <section>
     <h2>Inscription</h2>
-    <form action="/forms/form_test.php" method="post">
+    <form id="regForm" action="/forms/form_test.php" method="post">
         <div>
             <label for="id-username">Pseudo</label>
             <input type="text" name="userName" id="id-username"">
@@ -18,7 +18,7 @@
             <input type="password" name="passwdRepeat" id="id-pass-repeat">
         </div>
         <div>
-            <input type="submit" value="envoyer">
+            <input type="submit" value="envoyer" name="GetReg">
         </div>
     </form>
     <div>

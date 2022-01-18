@@ -1,6 +1,6 @@
 <section>
     <h2>Connexion</h2>
-    <form action="/forms/form_test.php" method="post">
+    <form id="conForm" action="/forms/form_test.php" method="post">
         <div>
             <label>Pseudo</label>
             <input type="text" name="userName">
@@ -10,7 +10,7 @@
             <input type="password" name="userPwd">
         </div>
         <div>
-            <input type="submit" value="envoyer">
+            <input type="submit" value="envoyer" name="getCon">
         </div>
     </form>
     <div>

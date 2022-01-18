@@ -14,6 +14,6 @@
             <nav>
                 <a href="/?title=Home">Home</a>
                 <a href="/?title=Contact">Contact</a>
-                <a href="/?title=Connexion">Connexion</a>
+                <a href="/?title=Connection">Connexion</a>
             </nav>
         </header>
