@@ -38,9 +38,12 @@ a {
     text-decoration-line: none;
 }
 
+header a {
+    color: white;
+}
+
 nav a {
     padding: .5vw;
-    color: white;
     flex-basis: 10%;
 }
 
@@ -87,7 +90,7 @@ form div {
     display: flex;
 }
 
-.switch {
+.switchForm {
     display: none;
 }
 

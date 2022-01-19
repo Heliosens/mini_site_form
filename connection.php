@@ -3,11 +3,11 @@
     <div id="userChoice">
         <div>
             <span>J'ai déjà un compte : </span>
-            <input type="submit" name="logIn" class="check" value="Connexion">
+            <input type="submit" name="logIn" class="choice" value="Connexion">
         </div>
         <div>
             <span>Je crée un comte : </span>
-            <input type="submit" name="signIn" class="check" value="Inscription">
+            <input type="submit" name="signIn" class="choice" value="Inscription">
         </div>
     </div>
     <div class='switchForm'>

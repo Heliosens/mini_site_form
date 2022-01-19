@@ -10,7 +10,10 @@
 <body>
     <main>
         <header>
-            <h1>Mini site</h1>
+            <a href="/?title=Home">
+                <h1>Mini site</h1>
+            </a>
+
             <nav>
                 <a href="/?title=Home">Home</a>
                 <a href="/?title=Contact">Contact</a>

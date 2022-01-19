@@ -1,24 +1,24 @@
 <section>
     <h2>Inscription</h2>
-    <form id="regForm" action="/forms/form_test.php" method="post">
+    <form id="regForm" action="/form_test.php" method="post">
         <div>
-            <label for="id-username">Pseudo</label>
-            <input type="text" name="userName" id="id-username"">
+            <label for="reg-username">Pseudo</label>
+            <input type="text"  minlength="2" name="userName" id="reg-username" required>
         </div>
         <div>
-            <label for="id-mail">E-mail</label>
-            <input type="email" name="userMail" id="id-mail">
+            <label for="reg-mail">E-mail</label>
+            <input type="email" name="userMail" id="reg-mail" required>
         </div>
         <div>
-            <label for="id-pass">mot de passe</label>
-            <input type="password" name="userPwd" id="id-pass">
+            <label for="reg-pass">mot de passe</label>
+            <input type="password" minlength="8" name="userPwd" id="reg-pass" required>
         </div>
         <div>
-            <label for="id-pass-repeat">mot de passe</label>
-            <input type="password" name="passwdRepeat" id="id-pass-repeat">
+            <label for="reg-pass-repeat">mot de passe</label>
+            <input type="password" name="passwdRepeat" id="reg-pass-repeat" required>
         </div>
         <div>
-            <input type="submit" value="envoyer" name="GetReg">
+            <input type="submit" value="envoyer" id="regBtn" name="GetReg">
         </div>
     </form>
     <div>

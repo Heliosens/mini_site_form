@@ -1,7 +1,7 @@
 <section>
     <h2>Contactez moi !</h2>
     <div class="content">
-        <form action="/forms/form_test.php">
+        <form action="/?title=form_test">
             <div>
                 <label>Pseudo</label>
                 <input type="text" name="userName">
